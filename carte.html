@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>دعوة زفاف</title>
+  <link rel="stylesheet" href="cart.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Amiri:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet"/>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <style>
+    
+  </style>
+</head>
+<body>
+
+<canvas id="petals-canvas"></canvas>
+
+<div class="page">
+  <div class="card">
+
+    <!-- Header -->
+    <div class="card-header" style="position:relative;">
+      <span class="corner tl"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 38 Q2 2 38 2" stroke="#C9A84C" stroke-width="1.5"/><path d="M2 30 Q8 8 30 2" stroke="#C9A84C" stroke-width="1"/><circle cx="4" cy="4" r="2" fill="#C9A84C"/></svg></span>
+      <span class="corner tr"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 38 Q2 2 38 2" stroke="#C9A84C" stroke-width="1.5"/><path d="M2 30 Q8 8 30 2" stroke="#C9A84C" stroke-width="1"/><circle cx="4" cy="4" r="2" fill="#C9A84C"/></svg></span>
+      <span class="corner bl"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 38 Q2 2 38 2" stroke="#C9A84C" stroke-width="1.5"/><path d="M2 30 Q8 8 30 2" stroke="#C9A84C" stroke-width="1"/><circle cx="4" cy="4" r="2" fill="#C9A84C"/></svg></span>
+      <span class="corner br"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 38 Q2 2 38 2" stroke="#C9A84C" stroke-width="1.5"/><path d="M2 30 Q8 8 30 2" stroke="#C9A84C" stroke-width="1"/><circle cx="4" cy="4" r="2" fill="#C9A84C"/></svg></span>
+
+      <p class="bismillah">﷽</p>
+      <p class="eyebrow">دعوة زفاف &nbsp;·&nbsp; Wedding Invitation</p>
+    </div>
+
+    <!-- Body -->
+    <div class="card-body">
+
+      <p class="intro"  data-aos="fade-up"
+     data-aos-anchor-placement="center-center"
+    >
+             وجعلنا بينكم مودة ورحمة <br> 
+             
+      بهذه المناسبة السعيدة يسعدنا أن ندعوكم بكل محبة وتقدير <br/>لحضور حفل زفاف  
+      </p>
+
+      <div class="ornament">✦</div>
+
+      <!-- Names -->
+      <div class="names-block" >
+
+        
+        <div class="name-display">Cedra</div>
+        <div class="name-arabic">سيدرة</div>
+        <span class="and-symbol">&amp;</span>
+        <div class="name-display">Rami</div>
+        <div class="name-arabic">رامي</div>
+      </div>
+
+      <div class="ornament">✦</div>
+       
+      <p class="invite-line" > 
+        <div class="bag"><img src="9.png"></div>
+        يتشرف أهل العريسين بدعوتكم<br/>
+        لمشاركتهم فرحة هذه المناسبة السعيدة
+      </p>
+
+      <!-- Event Details -->
+      <div class="event-details" >
+        <div class="detail-row">
+          <span class="detail-icon">📅</span>
+          <div class="detail-text">
+            <span>السبت</span> 12/10/2026
+          </div>
+        </div>
+        <div class="detail-row">
+          <span class="detail-icon">🕗</span>
+          <div class="detail-text">
+          <span>توقيت الحفل :</span>   الساعة 09:00 مساءً
+          </div>
+        </div>
+        <div class="detail-row">
+          <span class="detail-icon">📍</span>
+          <div class="detail-text">
+            <span>قاعة افراح الجزائر </span><br/>
+                   وهران — الجزائر
+          </div>
+        </div>
+      </div>
+
+      <!-- Countdown -->
+     
+      <div class="countdown-wrap">
+        <p class="countdown-label">العد التنازلي للحفل</p>
+        <div class="countdown">
+          <div class="countdown-item">
+            <div class="countdown-num" id="cd-days">--</div>
+            <div class="countdown-unit">يوم</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-num" id="cd-hours">--</div>
+            <div class="countdown-unit">ساعة</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-num" id="cd-mins">--</div>
+            <div class="countdown-unit">دقيقة</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-num" id="cd-secs">--</div>
+            <div class="countdown-unit">ثانية</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ornament" style="margin-top:28px;">❧</div>
+
+    </div>
+
+   
+        <div class="locl">
+          <h1>localisation</h1>
+        </div>
+   <div class="local">
+     
+<a href="https://www.google.com/maps/place/Afrah+Al-Jaza%C3%AFr/@35.6926409,-0.6819348,13z/data=!4m10!1m2!2m1!1z2KfZgdix2KfYrSDYp9mE2KzYstin2KbYsSDZiNmH2LHYp9mG!3m6!1s0xd7e89fd0f1e1029:0xa7d0df134d2786af!8m2!3d35.6926409!4d-0.609837!15sCiTYp9mB2LHYp9itINin2YTYrNiy2KfYptixINmI2YfYsdin2YZaJiIk2KfZgdix2KfYrSDYp9mE2KzYstin2KbYsSDZiNmH2LHYp9mGkgENd2VkZGluZ192ZW51ZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOWU1uRmxRVlpuRUFF4AEA-gEECAAQIA!16s%2Fg%2F1tdvr2pp?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">   
+    <i class="fa-solid fa-location-dot"></i>
+</a>
+   </div>
+  
+
+    
+
+
+    <!-- Footer -->
+    <div class="card-footer">
+      <p class="footer-text">
+        by invitation-BF
+       
+    
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  /* ── Countdown ── */
+  const weddingDate = new Date('2026-07-12T20:00:00');
+
+  function updateCountdown() {
+    const now  = new Date();
+    const diff = weddingDate - now;
+
+    if (diff <= 0) {
+      document.getElementById('cd-days').textContent  = '0';
+      document.getElementById('cd-hours').textContent = '0';
+      document.getElementById('cd-mins').textContent  = '0';
+      document.getElementById('cd-secs').textContent  = '0';
+      return;
+    }
+
+    const days  = Math.floor(diff / 86400000);
+    const hours = Math.floor((diff % 86400000) / 3600000);
+    const mins  = Math.floor((diff % 3600000)  / 60000);
+    const secs  = Math.floor((diff % 60000)    / 1000);
+
+    document.getElementById('cd-days').textContent  = String(days).padStart(2,'0');
+    document.getElementById('cd-hours').textContent = String(hours).padStart(2,'0');
+    document.getElementById('cd-mins').textContent  = String(mins).padStart(2,'0');
+    document.getElementById('cd-secs').textContent  = String(secs).padStart(2,'0');
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+
+  /* ── Falling petals ── */
+  const canvas = document.getElementById('petals-canvas');
+  const ctx    = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  const COLORS = ['#f0c0b0','#e8a898','#d48878','#f5ddd5','#c9a84c','#e8cb7a'];
+
+  class Petal {
+    constructor() { this.reset(true); }
+
+    reset(init = false) {
+      this.x    = Math.random() * canvas.width;
+      this.y    = init ? Math.random() * -canvas.height : -20;
+      this.r    = Math.random() * 6 + 3;
+      this.vx   = (Math.random() - 0.5) * 0.8;
+      this.vy   = Math.random() * 1 + 0.4;
+      this.rot  = Math.random() * Math.PI * 2;
+      this.vrot = (Math.random() - 0.5) * 0.04;
+      this.col  = COLORS[Math.floor(Math.random() * COLORS.length)];
+      this.alpha = Math.random() * 0.5 + 0.3;
+    }
+
+    draw() {
+      ctx.save();
+      ctx.translate(this.x, this.y);
+      ctx.rotate(this.rot);
+      ctx.globalAlpha = this.alpha;
+      ctx.fillStyle = this.col;
+      ctx.beginPath();
+      ctx.ellipse(0, 0, this.r, this.r * 0.55, 0, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+
+    update() {
+      this.x   += this.vx;
+      this.y   += this.vy;
+      this.rot += this.vrot;
+      if (this.y > canvas.height + 20) this.reset();
+    }
+  }
+
+  const petals = Array.from({ length: 60 }, () => new Petal());
+
+  (function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    petals.forEach(p => { p.update(); p.draw(); });
+    requestAnimationFrame(loop);
+  })();
+</script>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
