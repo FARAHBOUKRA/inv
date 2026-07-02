@@ -380,3 +380,132 @@
       #petals-canvas { display: none; }
       .card { animation: none; }
     }
+/* ==========================
+   Responsive For Mobile
+========================== */
+
+@media (max-width: 768px) {
+
+    .page{
+        padding:20px 10px;
+    }
+
+    .card{
+        width:100%;
+        border-radius:10px;
+    }
+
+    .card-header{
+        padding:25px 15px;
+    }
+
+    .card-body{
+        padding:25px 15px;
+    }
+
+    .bismillah{
+        font-size:20px;
+    }
+
+    .eyebrow{
+        font-size:12px;
+        letter-spacing:2px;
+    }
+
+    .intro{
+        font-size:16px;
+        line-height:1.8;
+    }
+
+    .names-block{
+        width:100%;
+        height:480px;
+        padding-top:180px;
+        background-size:cover;
+        background-position:center;
+    }
+
+    .name-display{
+        font-size:48px;
+    }
+
+    .name-arabic{
+        font-size:16px;
+    }
+
+    .and-symbol{
+        font-size:42px;
+    }
+
+    .invite-line{
+        font-size:17px;
+    }
+
+    .bag img{
+        width:60px;
+        height:auto;
+    }
+
+    .event-details{
+        padding:20px 15px;
+    }
+
+    .detail-row{
+        gap:10px;
+    }
+
+    .detail-text{
+        font-size:15px;
+    }
+
+    .countdown{
+        gap:10px;
+    }
+
+    .countdown-item{
+        min-width:60px;
+        padding:10px;
+    }
+
+    .countdown-num{
+        font-size:26px;
+    }
+
+    .countdown-unit{
+        font-size:11px;
+    }
+
+    .locl{
+        width:90%;
+        height:150px;
+        margin:30px auto 0;
+    }
+
+    .locl h1{
+        margin:0;
+        padding-top:65px;
+        text-align:center;
+        font-size:24px;
+    }
+
+    .local{
+        width:90%;
+        height:220px;
+        margin:20px auto;
+        background-size:cover;
+    }
+
+    .local i{
+        font-size:35px;
+    }
+
+    .card-footer{
+        margin-top:40px;
+        padding:20px;
+    }
+
+    .footer-text{
+        font-size:14px;
+    }
+
+}
